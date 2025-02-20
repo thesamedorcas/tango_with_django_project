@@ -28,7 +28,7 @@ SECRET_KEY = 'nwk(sel()$gwi3rt(s@!$5l(n++c_76f54xob_#bmb7c)09_-0'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+LOGIN_URL = 'rango:login'
 
 # Application definition
 
