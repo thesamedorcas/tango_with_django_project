@@ -26,7 +26,7 @@ SECRET_KEY = 'nwk(sel()$gwi3rt(s@!$5l(n++c_76f54xob_#bmb7c)09_-0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
+SESSION_EXPIRE_AT_BROWSER_CLOSE= True
 ALLOWED_HOSTS = []
 LOGIN_URL = 'rango:login'
 
